@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.9">
+    <root id="1">
+      <ServerVersion>11.2.0.1</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="CHEN">
+      <ObjectId>93</ObjectId>
+      <IntrospectionTimestamp>2019-09-19.17:08:10</IntrospectionTimestamp>
+      <CreatedTimestamp>2019-08-16.23:37:19</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-19.16:53:28</ModifiedTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DIP">
+      <ObjectId>14</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="ORACLE_OCM">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DBSNMP">
+      <ObjectId>30</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="APPQOSSYS">
+      <ObjectId>31</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="WMSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="EXFSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="CTXSYS">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="XDB">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="ANONYMOUS">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="ORDSYS">
+      <ObjectId>53</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="ORDDATA">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="ORDPLUGINS">
+      <ObjectId>55</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>56</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="MDSYS">
+      <ObjectId>57</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="OLAPSYS">
+      <ObjectId>61</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="MDDATA">
+      <ObjectId>65</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="SPATIAL_WFS_ADMIN_USR">
+      <ObjectId>67</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="SPATIAL_CSW_ADMIN_USR">
+      <ObjectId>70</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="SYSMAN">
+      <ObjectId>72</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="MGMT_VIEW">
+      <ObjectId>74</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="FLOWS_FILES">
+      <ObjectId>75</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>76</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="APEX_030200">
+      <ObjectId>78</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="OWBSYS">
+      <ObjectId>79</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="OWBSYS_AUDIT">
+      <ObjectId>83</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="SCOTT">
+      <ObjectId>84</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="HR">
+      <ObjectId>85</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="OE">
+      <ObjectId>86</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="IX">
+      <ObjectId>87</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="SH">
+      <ObjectId>88</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="PM">
+      <ObjectId>89</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="BI">
+      <ObjectId>90</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="A_OE">
+      <ObjectId>91</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="A_HR">
+      <ObjectId>92</ObjectId>
+    </schema>
+    <schema id="41" parent="1" name="CHENJBOA">
+      <ObjectId>94</ObjectId>
+    </schema>
+    <schema id="42" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <sequence id="43" parent="2" name="BILLS">
+      <ObjectId>77171</ObjectId>
+      <CreatedTimestamp>2019-09-19.16:37:41</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-19.16:37:41</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>10</CacheSize>
+    </sequence>
+    <sequence id="44" parent="2" name="HIBERNATE_SEQUENCE">
+      <ObjectId>75908</ObjectId>
+      <CreatedTimestamp>2019-08-22.19:27:40</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-22.19:27:40</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <table id="45" parent="2" name="BILL">
+      <ObjectId>77174</ObjectId>
+      <CreatedTimestamp>2019-09-19.16:53:28</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-19.16:53:28</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="46" parent="2" name="BILL_TYPE">
+      <ObjectId>77173</ObjectId>
+      <CreatedTimestamp>2019-09-19.16:39:24</CreatedTimestamp>
+      <ModifiedTimestamp>2019-09-19.16:39:24</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="47" parent="2" name="CUS_CUSTOMER">
+      <ObjectId>75909</ObjectId>
+      <CreatedTimestamp>2019-08-22.19:27:51</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-22.19:27:51</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="48" parent="2" name="DISTRICT">
+      <ObjectId>75700</ObjectId>
+      <CreatedTimestamp>2019-08-16.23:37:20</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-16.23:37:20</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="49" parent="2" name="HOUSE">
+      <ObjectId>75701</ObjectId>
+      <CreatedTimestamp>2019-08-16.23:37:20</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-16.23:37:20</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="50" parent="2" name="SALE_ORDER">
+      <ObjectId>76058</ObjectId>
+      <CreatedTimestamp>2019-08-26.04:12:13</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-26.04:12:13</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="51" parent="2" name="SALE_ORDER_LINE">
+      <ObjectId>76059</ObjectId>
+      <CreatedTimestamp>2019-08-26.04:15:34</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-26.04:15:34</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="52" parent="2" name="SALE_PRODUCT">
+      <ObjectId>75912</ObjectId>
+      <CreatedTimestamp>2019-08-22.19:28:24</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-22.19:28:24</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="53" parent="2" name="STREET">
+      <ObjectId>75702</ObjectId>
+      <CreatedTimestamp>2019-08-16.23:37:20</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-16.23:37:20</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="54" parent="2" name="TYPE">
+      <ObjectId>75703</ObjectId>
+      <CreatedTimestamp>2019-08-16.23:37:20</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-16.23:37:20</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="55" parent="2" name="USERS">
+      <ObjectId>75699</ObjectId>
+      <CreatedTimestamp>2019-08-16.23:37:19</CreatedTimestamp>
+      <ModifiedTimestamp>2019-08-16.23:37:19</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="56" parent="45" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="45" name="TITLE">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="58" parent="45" name="BILL_TIMES">
+      <Position>3</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="59" parent="45" name="TYPE_ID">
+      <Position>4</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="45" name="PRICE">
+      <Position>5</Position>
+      <DataType>NUMBER(10,2 digit)|0s</DataType>
+    </column>
+    <column id="61" parent="45" name="EXPLAIN">
+      <Position>6</Position>
+      <DataType>VARCHAR2(500 byte)|0s</DataType>
+    </column>
+    <column id="62" parent="46" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="63" parent="46" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="47" name="CUS_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="47" name="CUS_NAME">
+      <Position>2</Position>
+      <DataType>NVARCHAR2(100 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="66" parent="47" name="CUS_ADDR">
+      <Position>3</Position>
+      <DataType>NVARCHAR2(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="67" parent="48" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="68" parent="48" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="69" parent="49" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="70" parent="49" name="USER_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="71" parent="49" name="TYPE_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="72" parent="49" name="TITLE">
+      <Position>4</Position>
+      <DataType>NVARCHAR2(50 char)|0s</DataType>
+    </column>
+    <column id="73" parent="49" name="DESCRIPTION">
+      <Position>5</Position>
+      <DataType>NVARCHAR2(2000 char)|0s</DataType>
+    </column>
+    <column id="74" parent="49" name="PRICE">
+      <Position>6</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="75" parent="49" name="PUBDATE">
+      <Position>7</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="76" parent="49" name="FLOORAGE">
+      <Position>8</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="77" parent="49" name="CONTACT">
+      <Position>9</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="78" parent="49" name="STREET_ID">
+      <Position>10</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="79" parent="50" name="ODR_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(19 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="80" parent="50" name="ODR_CUSTOMER_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(19 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="81" parent="50" name="ODR_CUSTOMER_NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="82" parent="50" name="ODR_DELIVER_ADDR">
+      <Position>4</Position>
+      <DataType>VARCHAR2(500 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="83" parent="50" name="ODR_ORDER_DATE">
+      <Position>5</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="84" parent="50" name="ODR_DELIVER_DATE">
+      <Position>6</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="85" parent="50" name="ODR_STATUS">
+      <Position>7</Position>
+      <DataType>VARCHAR2(15 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="86" parent="51" name="ODL_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(19 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="87" parent="51" name="ODL_ORDER_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(19 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="88" parent="51" name="ODL_PRODUCT_NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="89" parent="51" name="ODL_PRODUCT_PRICE">
+      <Position>4</Position>
+      <DataType>FLOAT(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="90" parent="51" name="ODL_PRODUCT_COUNT">
+      <Position>5</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="91" parent="52" name="PROD_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(19 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="92" parent="52" name="PROD_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="93" parent="52" name="PROD_PRICE">
+      <Position>3</Position>
+      <DataType>FLOAT(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="94" parent="53" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="95" parent="53" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+    <column id="96" parent="53" name="DISTRICT_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="97" parent="54" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="98" parent="54" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="99" parent="55" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="100" parent="55" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+    <column id="101" parent="55" name="PASSWORD">
+      <Position>3</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+    <column id="102" parent="55" name="TELEPHONE">
+      <Position>4</Position>
+      <DataType>VARCHAR2(15 byte)|0s</DataType>
+    </column>
+    <column id="103" parent="55" name="USERNAME">
+      <Position>5</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+    <column id="104" parent="55" name="ISADMIN">
+      <Position>6</Position>
+      <DataType>VARCHAR2(5 byte)|0s</DataType>
+    </column>
+  </database-model>
+</dataSource>

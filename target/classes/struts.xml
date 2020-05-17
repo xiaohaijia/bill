@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.ui.theme" value="simple"/>
+	<constant name="struts.i18n.encoding" value="UTF-8"/>
+	<constant name="struts.enable.DynamicMethodInvocation" value="true"/>
+	<package name="order" extends="struts-default">
+
+		<action name="sel" class="com.bdqn.action.BillAction" method="getAll">
+			<result name="success">index.jsp</result>
+		</action>
+		<action name="seach" class="com.bdqn.action.BillAction" method="BillSeach">
+			<result name="success">index.jsp</result>
+		</action>
+		<action name="add" class="com.bdqn.action.BillAction" method="add">
+			<result name="success">Add.jsp</result>
+		</action>
+		<action name="addBill" class="com.bdqn.action.BillAction" method="AddBill">
+			<result name="success" type="redirect">sel.action</result>
+		</action>
+	</package>
+</struts>
